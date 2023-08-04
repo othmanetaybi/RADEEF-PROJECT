@@ -13,3 +13,6 @@ As a key member of the project team, my responsibilities encompassed the full cy
 * Backend Integration: I worked closely with the IT team to ensure seamless integration with LA RADEEF's existing backend systems, including their customer database and support infrastructure. This integration allowed for the efficient tracking of complaints, facilitating swift resolutions.
 
 * Testing and Quality Assurance: Rigorous testing was conducted to identify and rectify any potential bugs or issues. Ensuring the site's reliability and security was paramount to safeguard customer data and privacy.
+
+
+![Logo_Wydad_Athletic_Club](https://github.com/othmanetaybi/RADEEF-PROJECT/assets/82034036/3f9480da-a2cd-467a-be1b-8b3b694da047)
