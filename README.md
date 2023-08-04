@@ -15,4 +15,5 @@ As a key member of the project team, my responsibilities encompassed the full cy
 * Testing and Quality Assurance: Rigorous testing was conducted to identify and rectify any potential bugs or issues. Ensuring the site's reliability and security was paramount to safeguard customer data and privacy.
 
 
-![Logo_Wydad_Athletic_Club](https://github.com/othmanetaybi/RADEEF-PROJECT/assets/82034036/3f9480da-a2cd-467a-be1b-8b3b694da047)
+                    ![RADEEF-DSN](https://github.com/othmanetaybi/RADEEF-PROJECT/assets/82034036/ef1065d3-a6b1-4709-acd4-d818560aa0e6)
+
