@@ -1,0 +1,501 @@
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Raleway', sans-serif;
+        background-color: #fff;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    input,
+    button,
+    textarea {
+        border: none;
+        outline: none;
+    }
+    /*****************NAVIGATION*************/
+    
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    nav ul {
+        display: flex;
+    }
+    
+    nav ul li a {
+        height: 40px;
+        line-height: 43px;
+        margin: 3px;
+        padding: 0 22px;
+        display: flex;
+        font-size: 0.73rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 1px;
+        border-radius: 3px;
+        transition: 0.6s ease-in-out;
+        color: #ffffff;
+    }
+    
+    nav ul li a:hover {
+        background-color: #1B7FD7;
+        color: #fff;
+        box-shadow: 5px 10px 30px rgba(252, 59, 0, 0.397);
+    }
+    
+    .active {
+        background-color: #1B7FD7;
+        color: black;
+        box-shadow: 5px 10px 30px rgba(252, 59, 0, 0.397);
+    }
+    
+    .main {
+        width: 100%;
+        height: 800px;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../images/bg.png);
+    }
+    
+    .main1 {
+        width: 100%;
+        height: 444px;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../images/bgs.png);
+    }
+    
+    .main2 {
+        width: 100%;
+        height: 577px;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../images/tt11.png);
+    }
+    
+    .main3 {
+        width: 100%;
+        height: 585px;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../images/tt22.png);
+    }
+    
+    .main-heading {
+        width: 500px;
+        position: absolute;
+        left: 16%;
+        top: 47%;
+        transform: translate(-16%, -47%);
+    }
+    
+    .main-heading h1 {
+        font-size: 45px;
+        margin: 0px;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+    
+    .main-heading p {
+        color: #e2e2e2;
+    }
+    
+    .main-btn {
+        width: 133px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fc6f41;
+        border-radius: 10px;
+        color: #fff;
+        transition: 0.6s ease-in-out;
+    }
+    
+    .main-btn:hover {
+        box-shadow: 5px 10px 30px rgb(223, 252, 0);
+    }
+    
+    .features {
+        width: 100%;
+        height: 90vh;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -100px;
+    }
+    
+    .feature-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .feature-box {
+        background-color: #fff;
+        width: 300px;
+        height: 450px;
+        margin: 20px;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.13);
+    }
+    
+    .f-img {
+        width: 100%;
+        height: 63%;
+    }
+    
+    .f-img img {
+        width: 75%;
+        margin-left: 40px;
+        margin-top: 60px;
+        /*height: 100%;*/
+    }
+    
+    .f-text {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .f-text h4 {
+        margin-top: -12px;
+    }
+    
+    .about {
+        width: 100%;
+        height: 110vh;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 5% 0px 5%;
+        position: relative;
+    }
+    
+    .about-img {
+        width: 50%;
+    }
+    
+    .about-img img {
+        width: 500px;
+    }
+    
+    .about-text {
+        width: 45%;
+        color: #000;
+        text-align: right;
+    }
+    
+    .about-text h2 {
+        font-size: 2.2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    
+    .about-text p {
+        font-size: 1.1rem;
+        color: #4b4b4b;
+    }
+    
+    .about-text button {
+        float: right;
+    }
+    
+    .contact {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0px;
+        background-image: url(../images/rec12.png);
+    }
+    
+    .contact-heading {
+        text-align: center;
+        margin: 40px 0px;
+        margin-bottom: 80px;
+    }
+    
+    .contact-heading h1 {
+        font-size: 2.2rem;
+    }
+    
+    .contact form {
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .contact form input,
+    .contact form textarea {
+        width: 100%;
+        height: 40px;
+        margin: 5px 0px;
+        padding: 10px;
+        background-color: #e2e2e2;
+        color: #1e1e1e;
+        border-radius: 5px;
+    }
+    
+    .contact form textarea {
+        height: 150px;
+    }
+    
+    .contact-btn {
+        margin-top: 40px;
+    }
+    
+    .bg-viridian-500 {
+        background-color: #17202a !important;
+    }
+    
+    .text-white-50 {
+        color: rgba(255, 255, 255, 0.5) !important;
+    }
+    
+    .pt-1,
+    .py-1 {
+        padding-top: 0.25rem !important;
+    }
+    
+    .w-100 {
+        width: 100% !important;
+    }
+    
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .pb-5,
+    .py-5 {
+        padding-bottom: 3rem !important;
+    }
+    
+    .pt-5,
+    .py-5 {
+        padding-top: 3rem !important;
+    }
+    
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    .text-center {
+        text-align: center !important;
+    }
+    
+    .col {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        min-width: 0;
+        max-width: 100%;
+    }
+    
+    .widget:last-child {
+        margin-bottom: 0;
+    }
+    
+    .widget {
+        margin-bottom: 3.125rem;
+    }
+    
+    .text-uppercase {
+        text-transform: uppercase;
+    }
+    
+    .text-uppercase {
+        text-transform: uppercase !important;
+    }
+    
+    .pb-3,
+    .py-3 {
+        padding-bottom: 1rem !important;
+    }
+    
+    element.style {}
+    
+    .text-uppercase {
+        text-transform: uppercase;
+    }
+    
+    .text-uppercase {
+        text-transform: uppercase !important;
+    }
+    
+    .pb-3,
+    .py-3 {
+        padding-bottom: 1rem !important;
+    }
+    
+    .mb-4,
+    .my-4 {
+        margin-bottom: 1.5rem !important;
+    }
+    
+    .text-white-75 {
+        color: rgba(255, 255, 255, 0.75) !important;
+    }
+    
+    .font-weight-400 {
+        font-weight: 400 !important;
+    }
+    
+    .ml-3,
+    .mx-3 {
+        margin-left: 1rem !important;
+    }
+    
+    .mr-3,
+    .mx-3 {
+        margin-right: 1rem !important;
+    }
+    
+    a {
+        transition: color 0.2s ease-in-out;
+    }
+    
+    a {
+        color: #2196f3;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    
+    .justify-content-center {
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
+    
+    .d-flex {
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+    
+    .text-white-25 {
+        color: rgba(255, 255, 255, 0.25) !important;
+    }
+    
+    .align-items-center {
+        -ms-flex-align: center !important;
+        align-items: center !important;
+    }
+    
+    .justify-content-center {
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
+    
+    .d-flex {
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+    
+    .fab,
+    .far {
+        font-weight: 400;
+    }
+    
+    .fab {
+        font-family: "Font Awesome 5 Brands";
+    }
+    
+    .fa,
+    .fab,
+    .fad,
+    .fal,
+    .far,
+    .fas {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+    }
+    
+    #cl {
+        color: #000;
+    }
+    
+    .ro {
+        text-align: center;
+    }
+    
+    .fa,
+    .fas {
+        font-weight: 900;
+    }
+    
+    .fa,
+    .far,
+    .fas {
+        font-family: "Font Awesome 5 Free";
+    }
+    
+    .fa,
+    .fab,
+    .fad,
+    .fal,
+    .far,
+    .fas {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+    }
