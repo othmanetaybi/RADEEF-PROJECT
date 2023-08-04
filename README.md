@@ -4,6 +4,8 @@ The LA RADEEF Customer Complaint Management project was a vital initiative aimed
 
 The primary objective of the project was to establish a user-friendly and efficient online site that would act as a central hub for customers to voice their concerns, ensuring that each complaint is acknowledged, addressed, and resolved in a timely and satisfactory manner. By doing so, LA RADEEF intended to foster trust and transparency in its customer relations and demonstrate its commitment to providing exceptional customer care.
 
+  ![RADEEF-DSN](https://github.com/othmanetaybi/RADEEF-PROJECT/assets/82034036/bdc953b7-e811-47b5-b8a4-69c1d2549eeb)
+
 As a key member of the project team, my responsibilities encompassed the full cycle of developing and implementing the customer complaint management site. The project involved several essential phases:
 
 * Requirements Gathering: I collaborated with stakeholders from various departments within LA RADEEF to gather comprehensive insights into the expectations and needs for the site. Understanding the specific requirements was crucial in tailoring the platform to align with the company's existing customer service processes.
@@ -14,4 +16,5 @@ As a key member of the project team, my responsibilities encompassed the full cy
 
 * Testing and Quality Assurance: Rigorous testing was conducted to identify and rectify any potential bugs or issues. Ensuring the site's reliability and security was paramount to safeguard customer data and privacy.
 
-  ![RADEEF-DSN](https://github.com/othmanetaybi/RADEEF-PROJECT/assets/82034036/bdc953b7-e811-47b5-b8a4-69c1d2549eeb)
+  ![RADEEF-DSN-2](https://github.com/othmanetaybi/RADEEF-PROJECT/assets/82034036/8b865604-fdce-477c-9bb3-360fb7579d7d)
+
