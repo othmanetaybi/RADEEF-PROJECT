@@ -14,6 +14,4 @@ As a key member of the project team, my responsibilities encompassed the full cy
 
 * Testing and Quality Assurance: Rigorous testing was conducted to identify and rectify any potential bugs or issues. Ensuring the site's reliability and security was paramount to safeguard customer data and privacy.
 
-
-                    ![RADEEF-DSN](https://github.com/othmanetaybi/RADEEF-PROJECT/assets/82034036/ef1065d3-a6b1-4709-acd4-d818560aa0e6)
-
+  ![RADEEF-DSN](https://github.com/othmanetaybi/RADEEF-PROJECT/assets/82034036/bdc953b7-e811-47b5-b8a4-69c1d2549eeb)
